@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Porftolio</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        </style>
+                <link rel="stylesheet" href="index.css">
+    </head>
+    
+    <body style = "background: linear-gradient(45deg, #6A5386, #EF5252);">
+
+        <div id = "first-page" class = "page" style = "--pagenum: 0;">
+            <h1 id = "hero">YO</h1>
+        </div>
+        <div id = "second-page" class = "page" style = "--pagenum: 1;">
+            <h1 class = "topictitle">
+                <span style = "opacity: .5;">def</span> ME()
+                <p class = "info-text">
+                    <span style = "opacity: .5;">return</span> 
+                    “my name is matthew montes. in my free time, i enjoy coding and playing video games with my friends.
+                    in school, i try my hardest and my goal is to become valedictorian. i also enjoy playing certain sports with friends
+                    <em style = "opacity: .5;">(except soccer).</em> one thing i cannot stand is people who refuse to be wrong.
+                    ”
+                </p> 
+            </h1> 
+            <img id = "me-img" src = "./images/me.png" width = "500px">
+ 
+        </div>
+        <div id = "third-page" class = "page" style = "--pagenum: 2;">
+            <h1 class = "topictitle">
+                 careers? 
+                <p class = "info-text">
+                    in the future, i plan on becoming a software engineer - <em style = "opacity: 0.5;">perhaps a full stack engineer</em>. 
+                    i will do this by continuing to get good grades to go into a good university to, hopefully, get a goob job. 
+                    furthermore, i will work on personal projects along the way to fill in the gaps in knowledge that is implicit in formal schooling.
+                </p> 
+            </h1>
+        </div>
+        <div id = "fourth-page" class = "page" style = "--pagenum: 3; --bordercol: blue;">
+            <h1 class = "topictitle"> projects </h1>
+            
+            <img name = "proj1" class = "project-img" style = "--pagenum: 0" src = "./images/assignment1-ss.PNG" width = "400px" height = "400px">
+            <p class = "project-text" style = "--leftoffset: 16.5%">
+                <span style = "font-size: 30px;">PHYSCIS SIMULATION</span><br>
+                <span style = "opacity: .8; font-size: 20px;">
+                    In this program, I calculated the trajectory of a projectile at an inputted velocity and angle. 
+                    After looping through the calculation until it hits the ground, it stores each position of the projectile in an array.
+                    then, the program loops through the array and draws the trajectory. If the user hits it, the program tells them that they won!
+                </span>
+            </p>
+            <img name = "proj2" class = "project-img" style = "--pagenum: 1" src = "./images/assignment2-ss.PNG" width = "400px" height = "400px">
+            <p class = "project-text" style = "--leftoffset: 49.5%">
+                <span style = "font-size: 30px;">PHRASE SPLITTER</span><br>
+                <span style = "opacity: .8; font-size: 20px;">
+                    In this program, the user inputs a phrase that is split into words and then characters. I am proud of this assignment because of
+                    how small and concise the code is. After splitting the phrases and characters, they are stored in an array which is then looped through
+                    and printed to the user.
+                </span>
+            </p>
+            <img name = "proj2" class = "project-img" style = "--pagenum: 2" src = "./images/assignment3-ss.PNG" width = "400px" height = "400px">
+            <p class = "project-text" style = "--leftoffset: 82.5%">
+                <span style = "font-size: 30px;">JANKY CALCULATOR</span><br>
+                <span style = "opacity: .8; font-size: 20px;">
+                    In this program, the user can select different mathematical operations and input values to calculate the output. Furthermore, 
+                    the output is a string that is different depending on what kind of operation was used. I am proud of this assignment because I think 
+                    that it taught me how to effectively use string concantentation.
+                </span>
+            </p>
+
+
+        </div>
+        
+        <img id = "chevron-icon" src  = "./images/chevron.png" width = "100px">
+        <script src="index.js" async defer></script>
+    </body>
+</html>
